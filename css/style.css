@@ -13,3 +13,10 @@ div {
 	height: 70px;
 	margin: 0 auto;
 }
+.top-navigation > .links {
+	float: right;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+}
