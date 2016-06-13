@@ -7,19 +7,40 @@ div {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(221, 221, 221);
+	z-index: 9999;
+}
+{
+	display: block;
 }
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 }
+div {
+	border: 1px solid Chocolate;
+}
+div {
+	display: block;
+}
 .top-navigation > .links {
 	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
 }
 .top-navigation .links li {
+	float: right;
 	display: inline-block;
 	margin-left: 1.563rem;
 }
 .top-navigation .logo {
 	height: 4.375rem;
+
 }
