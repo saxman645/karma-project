@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
 	background-color: LightGray;
 }
@@ -16,31 +22,113 @@ div {
 	z-index: 9999;
 }
 {
-	display: block;
+	display: inline-block;
 }
-.top-navigation > .content {
+.top-navigatin .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+	margin-top: 1.7rem;
+}
+.top-navigation .links li:hover
+{
+	cursor:pointer;
+	background-color: #333333;
+}
+.content {
+	padding-top: 0px;
+    padding-right: 0.938rem;
+    padding-bottom: 0px;
+    padding-left: 0.938rem;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+}
+.top-navigation .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+
 }
 div {
 	border: 1px solid Chocolate;
+
+
+
 }
 div {
 	display: block;
 }
-.top-navigation > .links {
+.top-navigation .links {
 	float: right;
 	color: #838994;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+font-size: 16px;
+letter-spacing: 0.03em;
+
 }
-.top-navigation .links li {
+
+.top-navigation .links {
 	float: right;
 	display: inline-block;
 	margin-left: 1.563rem;
+
+}
+ul, menu, dir {
+
 }
 .top-navigation .logo {
 	height: 4.375rem;
+}
+.introduction {
+	background-image: url('../images/Karma_Background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	color: white;
+	text-align: center;
+	font-weight: 300;
 
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h1, .introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	:hover;
+	cursor: pointer;
+	background-color: #f15a29;
+}
+ :hover; {
+	cursor: pointer;
+	background-color: #333333;
+}
 }
