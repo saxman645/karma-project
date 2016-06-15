@@ -4,12 +4,11 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
-	background-color: LightGray;
+	background-color: white;
 }
-div {
-	border: 1px solid Chocolate;
-}
+
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
@@ -49,21 +48,17 @@ div {
     margin-left: auto;
 
 }
-.top-navigation .content {
+.content h2 {
+	text-align: center;
+}
+.top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 
 }
-div {
-	border: 1px solid Chocolate;
 
 
-
-}
-div {
-	display: block;
-}
 .top-navigation .links {
 	float: right;
 	color: #838994;
@@ -103,7 +98,7 @@ ul, menu, dir {
 	color: white;
 	text-align: center;
 	font-weight: 300;
-
+	overflow: auto;
 }
 .introduction h1 {
 	margin-top: 17.5rem;
@@ -128,4 +123,14 @@ button {
 	background-color: #f15a29;
 
  	}
+ .cases .devices li{
+ 	display: inline-block;
+ 	vertical-align: baseline;
+ 	width: 33%;
+ 	text-align: center;
+ 	/*styles to assist with debugging */
+ 	border: 1px solid black;
+ 	box-sizing: border-box;
+ 	
+ }
 }
