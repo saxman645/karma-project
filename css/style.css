@@ -126,9 +126,6 @@ button {
 	:hover;
 	cursor: pointer;
 	background-color: #f15a29;
-}
- :hover; {
-	cursor: pointer;
-	background-color: #333333;
-}
+
+ 	}
 }
